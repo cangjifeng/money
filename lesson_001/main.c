@@ -4,7 +4,8 @@
 
 int sum (int a, int b);
 int main(){
-	printf("Hello c.\n");
+	char content [ARRARY_SIZE]="Hello c."; 
+	printf("%s\n",content);
 	int a,b,result;
 	a = 10 ;
 	b = 200;
